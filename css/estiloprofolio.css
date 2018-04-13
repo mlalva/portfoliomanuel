@@ -32,17 +32,7 @@ strong{
 
 }
 
-/*.boton_entrada{
-	float: center;
-    text-decoration: none;
-    padding: 10px;
-    font-weight: 600;
-    font-size: 20px;
-    color: #ffffff;
-    background-color: #4B088A;
-    border-radius: 6px;
-    border: 2px solid #BCA9F5;
-  }*/
+
 
   .boton_entrada {
   
@@ -72,17 +62,25 @@ strong{
 }
 
 .menu{
-	/*position:fixed;
-	z-index:1000;
-	top:0;
-	max-width:1000px;
-	width:0 auto;*/
+	/*bottom: 0;
+    left: 0;
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    background: #1B242F;
+    border-bottom: 3px solid #04C2C9;
+    text-align: left;
+    z-index: 99;*/
+	
+	
 	box-shadow:0px 4px 3px rgba(0,0,0,.5);
 	
 	text-align: center;
 
 	background-color: #0489B1;
 }
+
+
 .h1_titulos{
 	
 	padding-top:  5em;
@@ -95,14 +93,17 @@ strong{
 	margin-left: 15em;
 	margin-right: 10em;
 }
+
 .quien > h2 p{
 	
 	float: right;
 }
-.fila-3{
+
+.fila-3 img{
+	width: 25%; 
+	height: 25%;
 	
-	overflow: hidden;
-	float: right;
+	float: left;
 
 
 	
