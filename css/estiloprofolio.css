@@ -19,14 +19,15 @@
 }
 
 
+
 strong{
 	
 	color: #D7DF01;
 }
 
-h1{
-	padding-top:  200px;
-	padding-bottom: 50px;
+.h1-inicio{
+	padding-top:  6em;
+	padding-bottom: 2em;
 	
 
 }
@@ -58,16 +59,56 @@ h1{
     background-color:#A9BCF5; 
     color: white;
 }
+
+
 .menu > a{
+
+
 	color: #ffffff;
-	padding:10px;
+	padding:3em;
 	text-decoration: none;
-	text-align: center;
+	
 
 }
+
 .menu{
+	/*position:fixed;
+	z-index:1000;
+	top:0;
+	max-width:1000px;
+	width:0 auto;*/
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+	
 	text-align: center;
+
 	background-color: #0489B1;
 }
+.h1_titulos{
+	
+	padding-top:  5em;
+	padding-bottom: 2em;
+
+}
+
+.acercade  {
+	
+	margin-left: 15em;
+	margin-right: 10em;
+}
+.quien > h2 p{
+	
+	float: right;
+}
+.fila-3{
+	
+	overflow: hidden;
+	float: right;
+
+
+	
+}
+
+
+
 
 
